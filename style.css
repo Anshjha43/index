@@ -32,6 +32,10 @@ nav ul {
   font-weight: 400;
 }
 
+li:hover{
+  transform:scale(1.1);
+}
+
 nav i {
   font-size: 20px;
 }
@@ -49,7 +53,7 @@ nav i {
 }
 
 .fimg button {
-    margin: 20px;
+  margin: 20px;
   width: 80px;
   height: 45px;
   font-size: 21px;
@@ -58,7 +62,16 @@ nav i {
   background-color: rgba(6, 106, 255, 0.847);
   border: none;
   color: white;
+ transition: background-color 0.4s ease, color 0.4s ease;
 }
+
+
+.fimg button:hover{
+  background-color: white;
+  color:rgba(6, 106, 255, 0.847);
+
+}
+
 
 .fimg p {
   color: white;
